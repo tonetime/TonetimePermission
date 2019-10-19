@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		268BCA0CFBC7E622140CDC2B02BE5B51 /* TonetimePermission-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A26083648B6C45C04A65C39ACABBA9C /* TonetimePermission-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DD1218E22C46E0641FB2D6BFB20C531 /* Pods-TonetimePermission_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9B41F2F5AED36D6F714D6563CA09B /* Pods-TonetimePermission_Tests-dummy.m */; };
+		2E8B2AEFFD993DED94EA622495A705C1 /* Pods-TonetimePermission_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFF916F5B82EBA2F38F19876EC7633B2 /* Pods-TonetimePermission_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45D948DF2517DB056D6A9D2CD7EDC6C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5C81CBD66AAA376CBD2BD26DEC56A200 /* Pods-TonetimePermission_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D9212955FD6831BD836940B50D6C838 /* Pods-TonetimePermission_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E9FA109235A23480094B54E /* TonetimePermissionCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9FA108235A23480094B54E /* TonetimePermissionCheck.swift */; };
+		5E9FA10A235A27890094B54E /* TonetimePermissionCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9FA108235A23480094B54E /* TonetimePermissionCheck.swift */; };
+		5E9FA10B235A29E70094B54E /* TonetimePermissionCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9FA108235A23480094B54E /* TonetimePermissionCheck.swift */; };
+		744A31BC8755E5852B59D8125097BF74 /* Pods-TonetimePermission_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA19FA6CF43041047BC119E6C24CB8E9 /* Pods-TonetimePermission_Example-dummy.m */; };
+		798F2392147B3F810490E78444B268BB /* TonetimePermission-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5415F2739693D7CA0BFD3CD07A56669E /* TonetimePermission-dummy.m */; };
+		9F3A44C1CD2A33754622152424D59649 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D4F905EF7796CBA20AF5EAFCCD624893 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		900E6711116D6640EBC01729E079EE16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9776EEF0B10AD6085DA588C7584190BB;
+			remoteInfo = TonetimePermission;
+		};
+		A819AA0F492DF13783B550637D7E7181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CF28971F0C2046BD9ABD8D2624D0286;
+			remoteInfo = "Pods-TonetimePermission_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22D700581502B5DA4A959EA2D3D7886F /* Pods-TonetimePermission_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TonetimePermission_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		28FE4BAD2C0489ED27D5ED52DEDE5DFE /* Pods-TonetimePermission_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TonetimePermission_Example-Info.plist"; sourceTree = "<group>"; };
+		299FDE6ADC3389396588B6C8C2932206 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		44FE49711699715DB630228E43610B8A /* Pods-TonetimePermission_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TonetimePermission_Tests.modulemap"; sourceTree = "<group>"; };
+		4A26083648B6C45C04A65C39ACABBA9C /* TonetimePermission-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TonetimePermission-umbrella.h"; sourceTree = "<group>"; };
+		5125E7F4186E2F40685FFA2F152B340C /* TonetimePermission.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TonetimePermission.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5415F2739693D7CA0BFD3CD07A56669E /* TonetimePermission-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TonetimePermission-dummy.m"; sourceTree = "<group>"; };
+		55D1661571719613E559B494C32C2C1F /* Pods-TonetimePermission_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TonetimePermission_Example-frameworks.sh"; sourceTree = "<group>"; };
+		59122CD437C5E4E9666EE5A244430F4C /* Pods-TonetimePermission_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TonetimePermission_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5AB7FECE63404412FBA69766BC04C35B /* Pods-TonetimePermission_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TonetimePermission_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5E9FA108235A23480094B54E /* TonetimePermissionCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TonetimePermissionCheck.swift; sourceTree = "<group>"; };
+		6A9884D4E50E2ED980D7634695F3A37B /* TonetimePermission.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TonetimePermission.xcconfig; sourceTree = "<group>"; };
+		7C2DD733C77DCA9E8311CBF252B4E74D /* Pods-TonetimePermission_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TonetimePermission_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7C9FF24B2BCA4BFC4E9EE33CF8523FD2 /* TonetimePermission.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TonetimePermission.modulemap; sourceTree = "<group>"; };
+		858C78EDA485E2C1B56B58CFA2F27387 /* Pods-TonetimePermission_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TonetimePermission_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		88E3AB20FD565078F0703CA5DE60BCB7 /* Pods_TonetimePermission_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TonetimePermission_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D9212955FD6831BD836940B50D6C838 /* Pods-TonetimePermission_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TonetimePermission_Example-umbrella.h"; sourceTree = "<group>"; };
+		92C9B41F2F5AED36D6F714D6563CA09B /* Pods-TonetimePermission_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TonetimePermission_Tests-dummy.m"; sourceTree = "<group>"; };
+		9506471E686FD1F929BE851061FE4415 /* TonetimePermission-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TonetimePermission-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9B75E690DB8BF9EBFEC0224F2245486 /* Pods-TonetimePermission_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TonetimePermission_Tests-Info.plist"; sourceTree = "<group>"; };
+		AE07C9A73FBBBEBF4BBB62305BBADBAF /* Pods-TonetimePermission_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TonetimePermission_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B48B053B7E5056585BDEECB5D9FD3C70 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C984E0AFA563D3CED2058760E08B0673 /* TonetimePermission-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TonetimePermission-prefix.pch"; sourceTree = "<group>"; };
+		CA19FA6CF43041047BC119E6C24CB8E9 /* Pods-TonetimePermission_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TonetimePermission_Example-dummy.m"; sourceTree = "<group>"; };
+		DA73401A9B8B1B6C5F65394939943BFD /* TonetimePermission.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TonetimePermission.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DB3DC29037FDD45756954975342F3676 /* Pods-TonetimePermission_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TonetimePermission_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DE9FF01E85850F0FFE0E1ECA1237F862 /* Pods-TonetimePermission_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TonetimePermission_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F8CEA892C22F2792AE47DE1E8887E70F /* Pods_TonetimePermission_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TonetimePermission_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5DA3012649FF55257736560A2A7CE1 /* Pods-TonetimePermission_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TonetimePermission_Example.modulemap"; sourceTree = "<group>"; };
+		FFF916F5B82EBA2F38F19876EC7633B2 /* Pods-TonetimePermission_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TonetimePermission_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		464BA0F4365EBF3CA7DF9F5C6D1EFF60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3A44C1CD2A33754622152424D59649 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F474F9525C52818D1A52799B9AFF718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D948DF2517DB056D6A9D2CD7EDC6C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0FD61EC171576267F361B7670249EE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4F905EF7796CBA20AF5EAFCCD624893 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A4F8E764285C0B8F3E7193902218B77 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A98E4892E1AAE99789FE29488F1A283D /* Pods-TonetimePermission_Example */,
+				EC63E5E475C0B6CD090DE415B9DAF46B /* Pods-TonetimePermission_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		52637B1396B7BF81F229ED7A809A33FE /* TonetimePermission */ = {
+			isa = PBXGroup;
+			children = (
+				B904BBC0D71C2DD709B35C01D7E83502 /* Pod */,
+				E812A53507EC73385CD54D2D061A9C09 /* Support Files */,
+			);
+			name = TonetimePermission;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8309586C70D57A770B408CB59B99484B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88E3AB20FD565078F0703CA5DE60BCB7 /* Pods_TonetimePermission_Example.framework */,
+				F8CEA892C22F2792AE47DE1E8887E70F /* Pods_TonetimePermission_Tests.framework */,
+				5125E7F4186E2F40685FFA2F152B340C /* TonetimePermission.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A98E4892E1AAE99789FE29488F1A283D /* Pods-TonetimePermission_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FF5DA3012649FF55257736560A2A7CE1 /* Pods-TonetimePermission_Example.modulemap */,
+				5AB7FECE63404412FBA69766BC04C35B /* Pods-TonetimePermission_Example-acknowledgements.markdown */,
+				22D700581502B5DA4A959EA2D3D7886F /* Pods-TonetimePermission_Example-acknowledgements.plist */,
+				CA19FA6CF43041047BC119E6C24CB8E9 /* Pods-TonetimePermission_Example-dummy.m */,
+				55D1661571719613E559B494C32C2C1F /* Pods-TonetimePermission_Example-frameworks.sh */,
+				28FE4BAD2C0489ED27D5ED52DEDE5DFE /* Pods-TonetimePermission_Example-Info.plist */,
+				8D9212955FD6831BD836940B50D6C838 /* Pods-TonetimePermission_Example-umbrella.h */,
+				DB3DC29037FDD45756954975342F3676 /* Pods-TonetimePermission_Example.debug.xcconfig */,
+				7C2DD733C77DCA9E8311CBF252B4E74D /* Pods-TonetimePermission_Example.release.xcconfig */,
+			);
+			name = "Pods-TonetimePermission_Example";
+			path = "Target Support Files/Pods-TonetimePermission_Example";
+			sourceTree = "<group>";
+		};
+		B87CBF14E88C5ABE344CDA83B709F425 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52637B1396B7BF81F229ED7A809A33FE /* TonetimePermission */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B904BBC0D71C2DD709B35C01D7E83502 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5E9FA108235A23480094B54E /* TonetimePermissionCheck.swift */,
+				B48B053B7E5056585BDEECB5D9FD3C70 /* LICENSE */,
+				299FDE6ADC3389396588B6C8C2932206 /* README.md */,
+				DA73401A9B8B1B6C5F65394939943BFD /* TonetimePermission.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B87CBF14E88C5ABE344CDA83B709F425 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8309586C70D57A770B408CB59B99484B /* Products */,
+				3A4F8E764285C0B8F3E7193902218B77 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E812A53507EC73385CD54D2D061A9C09 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C9FF24B2BCA4BFC4E9EE33CF8523FD2 /* TonetimePermission.modulemap */,
+				6A9884D4E50E2ED980D7634695F3A37B /* TonetimePermission.xcconfig */,
+				5415F2739693D7CA0BFD3CD07A56669E /* TonetimePermission-dummy.m */,
+				9506471E686FD1F929BE851061FE4415 /* TonetimePermission-Info.plist */,
+				C984E0AFA563D3CED2058760E08B0673 /* TonetimePermission-prefix.pch */,
+				4A26083648B6C45C04A65C39ACABBA9C /* TonetimePermission-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TonetimePermission";
+			sourceTree = "<group>";
+		};
+		EC63E5E475C0B6CD090DE415B9DAF46B /* Pods-TonetimePermission_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				44FE49711699715DB630228E43610B8A /* Pods-TonetimePermission_Tests.modulemap */,
+				59122CD437C5E4E9666EE5A244430F4C /* Pods-TonetimePermission_Tests-acknowledgements.markdown */,
+				858C78EDA485E2C1B56B58CFA2F27387 /* Pods-TonetimePermission_Tests-acknowledgements.plist */,
+				92C9B41F2F5AED36D6F714D6563CA09B /* Pods-TonetimePermission_Tests-dummy.m */,
+				A9B75E690DB8BF9EBFEC0224F2245486 /* Pods-TonetimePermission_Tests-Info.plist */,
+				FFF916F5B82EBA2F38F19876EC7633B2 /* Pods-TonetimePermission_Tests-umbrella.h */,
+				DE9FF01E85850F0FFE0E1ECA1237F862 /* Pods-TonetimePermission_Tests.debug.xcconfig */,
+				AE07C9A73FBBBEBF4BBB62305BBADBAF /* Pods-TonetimePermission_Tests.release.xcconfig */,
+			);
+			name = "Pods-TonetimePermission_Tests";
+			path = "Target Support Files/Pods-TonetimePermission_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		33D470EAEE092B7633712AB7316C92C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C81CBD66AAA376CBD2BD26DEC56A200 /* Pods-TonetimePermission_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A1238893601D0868D14B14B4D60B3C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8B2AEFFD993DED94EA622495A705C1 /* Pods-TonetimePermission_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84017575F1884ED866B59BF2A667B3EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268BCA0CFBC7E622140CDC2B02BE5B51 /* TonetimePermission-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8CF28971F0C2046BD9ABD8D2624D0286 /* Pods-TonetimePermission_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79990033303B0E72E11B0AB4C1B64AD /* Build configuration list for PBXNativeTarget "Pods-TonetimePermission_Example" */;
+			buildPhases = (
+				33D470EAEE092B7633712AB7316C92C0 /* Headers */,
+				22F63FE8EE647D7A6A8E988FC332C4ED /* Sources */,
+				F0FD61EC171576267F361B7670249EE0 /* Frameworks */,
+				54C38F36BFF9E36707E247258F9E71D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				024C6EFF015F862E91EDC38A115D1D49 /* PBXTargetDependency */,
+			);
+			name = "Pods-TonetimePermission_Example";
+			productName = "Pods-TonetimePermission_Example";
+			productReference = 88E3AB20FD565078F0703CA5DE60BCB7 /* Pods_TonetimePermission_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9776EEF0B10AD6085DA588C7584190BB /* TonetimePermission */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3DB955253013FCFB4ACF505B251698E /* Build configuration list for PBXNativeTarget "TonetimePermission" */;
+			buildPhases = (
+				84017575F1884ED866B59BF2A667B3EE /* Headers */,
+				141D8A63DC0E87C7D190D3CA8A4E25D4 /* Sources */,
+				464BA0F4365EBF3CA7DF9F5C6D1EFF60 /* Frameworks */,
+				71A5A0AC904EA5EF706B0E37DE98BBCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TonetimePermission;
+			productName = TonetimePermission;
+			productReference = 5125E7F4186E2F40685FFA2F152B340C /* TonetimePermission.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B42020FC951B90ABE6EB27521D1EC16D /* Pods-TonetimePermission_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF685CCA4B41DCCA24049A752FC1F683 /* Build configuration list for PBXNativeTarget "Pods-TonetimePermission_Tests" */;
+			buildPhases = (
+				4A1238893601D0868D14B14B4D60B3C6 /* Headers */,
+				53E69D4B18A4479B41F7D815F23E7011 /* Sources */,
+				5F474F9525C52818D1A52799B9AFF718 /* Frameworks */,
+				AE22E7235C500A1C57354B670F1F8B05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F15C494CB94E18D02FB258BE3A11940 /* PBXTargetDependency */,
+			);
+			name = "Pods-TonetimePermission_Tests";
+			productName = "Pods-TonetimePermission_Tests";
+			productReference = F8CEA892C22F2792AE47DE1E8887E70F /* Pods_TonetimePermission_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1110;
+				TargetAttributes = {
+					8CF28971F0C2046BD9ABD8D2624D0286 = {
+						DevelopmentTeam = V655RUA85J;
+						LastSwiftMigration = 1110;
+					};
+					9776EEF0B10AD6085DA588C7584190BB = {
+						DevelopmentTeam = V655RUA85J;
+						LastSwiftMigration = 1110;
+					};
+					B42020FC951B90ABE6EB27521D1EC16D = {
+						DevelopmentTeam = V655RUA85J;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8309586C70D57A770B408CB59B99484B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CF28971F0C2046BD9ABD8D2624D0286 /* Pods-TonetimePermission_Example */,
+				B42020FC951B90ABE6EB27521D1EC16D /* Pods-TonetimePermission_Tests */,
+				9776EEF0B10AD6085DA588C7584190BB /* TonetimePermission */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54C38F36BFF9E36707E247258F9E71D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A5A0AC904EA5EF706B0E37DE98BBCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE22E7235C500A1C57354B670F1F8B05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		141D8A63DC0E87C7D190D3CA8A4E25D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798F2392147B3F810490E78444B268BB /* TonetimePermission-dummy.m in Sources */,
+				5E9FA10A235A27890094B54E /* TonetimePermissionCheck.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F63FE8EE647D7A6A8E988FC332C4ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744A31BC8755E5852B59D8125097BF74 /* Pods-TonetimePermission_Example-dummy.m in Sources */,
+				5E9FA109235A23480094B54E /* TonetimePermissionCheck.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E69D4B18A4479B41F7D815F23E7011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9FA10B235A29E70094B54E /* TonetimePermissionCheck.swift in Sources */,
+				2DD1218E22C46E0641FB2D6BFB20C531 /* Pods-TonetimePermission_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		024C6EFF015F862E91EDC38A115D1D49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TonetimePermission;
+			target = 9776EEF0B10AD6085DA588C7584190BB /* TonetimePermission */;
+			targetProxy = 900E6711116D6640EBC01729E079EE16 /* PBXContainerItemProxy */;
+		};
+		7F15C494CB94E18D02FB258BE3A11940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TonetimePermission_Example";
+			target = 8CF28971F0C2046BD9ABD8D2624D0286 /* Pods-TonetimePermission_Example */;
+			targetProxy = A819AA0F492DF13783B550637D7E7181 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F5770A954B290931907B32C516830FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C2DD733C77DCA9E8311CBF252B4E74D /* Pods-TonetimePermission_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = V655RUA85J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TonetimePermission_Example/Pods-TonetimePermission_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TonetimePermission_Example/Pods-TonetimePermission_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7BBDF0D39E256D07E7A2E0169903F40A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB3DC29037FDD45756954975342F3676 /* Pods-TonetimePermission_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = V655RUA85J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TonetimePermission_Example/Pods-TonetimePermission_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TonetimePermission_Example/Pods-TonetimePermission_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C3E07F6AA4BFE01B86BED775614FF04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A9884D4E50E2ED980D7634695F3A37B /* TonetimePermission.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = V655RUA85J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TonetimePermission/TonetimePermission-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TonetimePermission/TonetimePermission-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TonetimePermission/TonetimePermission.modulemap";
+				PRODUCT_MODULE_NAME = TonetimePermission;
+				PRODUCT_NAME = TonetimePermission;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B0F4411982C27D0D61BD12B7C7ECF097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE07C9A73FBBBEBF4BBB62305BBADBAF /* Pods-TonetimePermission_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = V655RUA85J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TonetimePermission_Tests/Pods-TonetimePermission_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TonetimePermission_Tests/Pods-TonetimePermission_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B1E7086C95007BC9760435E23F41FE3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE9FF01E85850F0FFE0E1ECA1237F862 /* Pods-TonetimePermission_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = V655RUA85J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TonetimePermission_Tests/Pods-TonetimePermission_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TonetimePermission_Tests/Pods-TonetimePermission_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D04D24AFBC6BA2F9E0E95AD23B345EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A9884D4E50E2ED980D7634695F3A37B /* TonetimePermission.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = V655RUA85J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TonetimePermission/TonetimePermission-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TonetimePermission/TonetimePermission-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TonetimePermission/TonetimePermission.modulemap";
+				PRODUCT_MODULE_NAME = TonetimePermission;
+				PRODUCT_NAME = TonetimePermission;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A79990033303B0E72E11B0AB4C1B64AD /* Build configuration list for PBXNativeTarget "Pods-TonetimePermission_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BBDF0D39E256D07E7A2E0169903F40A /* Debug */,
+				1F5770A954B290931907B32C516830FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF685CCA4B41DCCA24049A752FC1F683 /* Build configuration list for PBXNativeTarget "Pods-TonetimePermission_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E7086C95007BC9760435E23F41FE3E /* Debug */,
+				B0F4411982C27D0D61BD12B7C7ECF097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3DB955253013FCFB4ACF505B251698E /* Build configuration list for PBXNativeTarget "TonetimePermission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C3E07F6AA4BFE01B86BED775614FF04 /* Debug */,
+				D04D24AFBC6BA2F9E0E95AD23B345EB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

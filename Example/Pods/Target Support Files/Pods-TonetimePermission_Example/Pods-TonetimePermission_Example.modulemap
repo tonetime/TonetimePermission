@@ -1,0 +1,6 @@
+framework module Pods_TonetimePermission_Example {
+  umbrella header "Pods-TonetimePermission_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TonetimePermission {
+  umbrella header "TonetimePermission-umbrella.h"
+
+  export *
+  module * { export * }
+}
